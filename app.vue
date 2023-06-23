@@ -1,5 +1,9 @@
+<script setup>
+  const config = useRuntimeConfig()
+</script>
+
 <template>
   <div>
-    <NuxtWelcome />
+    Revelo App, rodando em: {{ config.app.env }}
   </div>
 </template>
